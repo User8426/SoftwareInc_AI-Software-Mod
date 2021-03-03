@@ -1,0 +1,21 @@
+CompanyType
+	{
+	Specialization		"AI Makers"
+	PerYear			0.25
+	Min			3
+	Max			6
+	Frameworks		False
+	Types
+		[
+			{
+			Software	"AI Assistant"
+			Category	Assistant
+			Chance		1
+			}
+      {
+			Software	"AI Assistant"
+			Category	Discord Bot
+			Chance		1
+			}
+		]
+	}
