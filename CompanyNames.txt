@@ -1,1 +1,12 @@
 
+-start(base)
+-base(base2,end,stop)
+Original Bots
+Advanced Bots
+Ultimate Bots
+Bots
+-base2(end,stop)
+By Bots
+For You
+-end(stop)
+.
