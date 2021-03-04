@@ -22,7 +22,7 @@ SoftwareType
 			Retention		36
 			TimeScale		1
 			Iterative		0.75
-			NameGenerator		testgen
+			NameGenerator		SoftwareNames
 			}
 			{
 			Name			"Discord Bot"
@@ -32,7 +32,7 @@ SoftwareType
 			Retention		60
 			TimeScale		1
 			Iterative		0.75
-			NameGenerator		testgen
+			NameGenerator		SoftwareNames
 			}
 		]
 	Features
