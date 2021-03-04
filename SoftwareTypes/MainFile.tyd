@@ -37,21 +37,20 @@ SoftwareType
 			Features
 				[
 					{
-					Name		"Test subfeat 1"
-					Description	"This feature requires a level 1 System designer/programmer to be finished"
+					Name		"Active Virus/Backdoor Protection"
+					Description	"This will help secure your AI from attackers."
 					DevTime		3
 					Level		1
 					CodeArt		1
-					Submarkets	[ 0; 1; 0 ]
+					Submarkets	[ 0; 1; 3 ]
 					}
 					{
-					Name		"Test subfeat 2"
-					Description	"This feature will cost the owner $1000 per day when it is released"
+					Name		"SUBFEAT2"
+					Description	"This feature will "
 					DevTime		2
 					Level		3
 					CodeArt		1
-					Submarkets	0 #No submarkets needed for level 3 features
-					Script_EndOfDay "Product.DevCompany.MakeTransaction(-1000, Bills, \"Owned\");"
+					Submarkets	0 #No submarkets needed for level 3 feature
 					}
 				]
 			}
