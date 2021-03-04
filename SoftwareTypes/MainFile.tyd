@@ -15,11 +15,21 @@ SoftwareType
 	Categories
 		[
 			{
-			Name			"Security + General System"
-			Description		"This is the main components of an AI"
-			Popularity		0.4
-			Submarkets		[ 1; 3; 3 ]
+			Name			"Assistant"
+			Description		"Sometimes, all you need is a cheap helper to help out generally"
+			Popularity		0.5
+			Submarkets		[ 1; 5; 2 ]
 			Retention		36
+			TimeScale		1
+			Iterative		0.75
+			NameGenerator		testgen
+			}
+			{
+			Name			"Discord Bot"
+			Description		"Sometimes, all you need is a cheap helper for your Discord Server"
+			Popularity		0.4
+			Submarkets		[ 2; 5; 3 ]
+			Retention		60
 			TimeScale		1
 			Iterative		0.75
 			NameGenerator		testgen
