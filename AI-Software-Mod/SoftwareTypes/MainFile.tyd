@@ -84,7 +84,7 @@ SoftwareType
 					Submarkets	[ 1; 4; 0 ] 
 					}
 					{
-					Name		"Male/Voice varients"
+					Name		"Male/Female Voice varients"
 					Description	"Adds option for higher and lower pitch."
 					Spec            Audio
 					DevTime		2
