@@ -93,6 +93,7 @@ SoftwareType
 					Submarkets	[ 4; 3; 0]
 					}
 				]
+                        }
                         {
 			Name 		"Art/Drawing Ability"
 			Spec		2D
