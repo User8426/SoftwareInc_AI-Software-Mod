@@ -39,7 +39,7 @@ SoftwareType
 			{
 			Name 		"Security + General System"
 			Spec		System
-			Description	"These are the main components of an AI"
+			Description	"These are the main components of an AI."
 			DevTime		12
 			CodeArt		1
 			Submarkets	[ 1; 3; 3 ]
@@ -55,7 +55,7 @@ SoftwareType
 					}
 					{
 					Name		"Custom Commands with UI"
-					Description	"This feature will allow the owner to add custom commands easily"
+					Description	"This feature will allow the owner to add custom commands easily."
 					DevTime		4
 					Level		2
 					CodeArt		0.8
@@ -63,19 +63,20 @@ SoftwareType
 					}
 					{					
 					Name		"Database"
-					Description	"Allows data specific to users to be stored"
+					Description	"Allows data specific to users to be stored."
 					DevTime		2
 					Level		3
 					CodeArt		1
+					Server          0.001
 					Submarkets	[ 1; 3; 0 ]
 					}
 					{
-					Name		"SUB "
-					Description	"DESC "
-					DevTime		4
+					Name		"Optimizations"
+					Description	"Optimises code to make it more efficent."
+					DevTime		6
 					Level		2
-					CodeArt		0.8
-					Submarkets	[ 0; 3; 0]
+					CodeArt		1
+					Submarkets	[ 0; 1; 0]
                                         }
 				]
 			}
