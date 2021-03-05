@@ -10,7 +10,7 @@ SoftwareType
 	OSSupport		False
 	OneClient		False
 	InHouse			False
-	SubmarketNames		[ Editablity; Usefulness; Secure. ]
+	SubmarketNames		[ Editablity; Usefulness; Secure ]
 	Unlock                  1997
 	Categories
 		[
@@ -75,19 +75,19 @@ SoftwareType
 			Submarkets	[ 1; 2; 2 ]
 			}
 			{
-					Name		"SUBFEAT1"
-					Description	"DESC"
-					DevTime		3
+					Name		"Less Robotic Voice"
+					Description	"Makes the bot sound more like a person."
+					DevTime		5
 					Level		2
 					CodeArt		1
-					Submarkets	[ 0; 1; 3 ]
+					Submarkets	[ 1; 4; 0 ] 
 					}
 					{
-					Name		"SUBFEAT2"
-					Description	"DESC"
-					DevTime		4
-					Level		2
-					CodeArt		0.8
+					Name		"Male/Voice varients"
+					Description	"Adds option for higher and lower pitch "
+					DevTime		2
+					Level		1
+					CodeArt		1
 					Submarkets	[ 4; 3; 0]
 					}
                         {
@@ -101,20 +101,20 @@ SoftwareType
 			Submarkets	[ 3; 2; 1 ]
 			}
 			{
-					Name		"SUBFEAT1"
-					Description	"DESC"
-					DevTime		3
-					Level		2
-					CodeArt		1
-					Submarkets	[ 0; 1; 3 ]
+					Name		"Shadows"
+					Description	"Allows shadows on drawn files."
+					DevTime		6
+					Level		3
+					CodeArt		0.5
+					Submarkets	[ 2; 3; 0 ] 
 					}
 					{
-					Name		"SUBFEAT2"
-					Description	"DESC"
-					DevTime		4
+					Name		"Detail"
+					Description	"Makes it so theres actual detail, not just stickmen being drawn."
+					DevTime		8
 					Level		2
-					CodeArt		0.8
-					Submarkets	[ 4; 3; 0]
+					CodeArt		0.3
+					Submarkets	[ 3; 7; 0] 
 					}
 		]
 	}
