@@ -7,7 +7,6 @@ SoftwareType
 	Random			0.8
 	IdealPrice		80
 	OptimalDevTime		36
-	OSSupport		False
 	OneClient		False
 	InHouse			False
 	SubmarketNames		[ Editablity; Usefulness; Secure ]
@@ -77,6 +76,7 @@ SoftwareType
 			{
 					Name		"Less Robotic Voice"
 					Description	"Makes the bot sound more like a person."
+					Spec            Audio
 					DevTime		5
 					Level		2
 					CodeArt		1
@@ -84,7 +84,8 @@ SoftwareType
 					}
 					{
 					Name		"Male/Voice varients"
-					Description	"Adds option for higher and lower pitch "
+					Description	"Adds option for higher and lower pitch."
+					Spec            Audio
 					DevTime		2
 					Level		1
 					CodeArt		1
@@ -103,6 +104,7 @@ SoftwareType
 			{
 					Name		"Shadows"
 					Description	"Allows shadows on drawn files."
+					Spec            2D
 					DevTime		6
 					Level		3
 					CodeArt		0.5
@@ -111,6 +113,7 @@ SoftwareType
 					{
 					Name		"Detail"
 					Description	"Makes it so theres actual detail, not just stickmen being drawn."
+					Spec            2D
 					DevTime		8
 					Level		2
 					CodeArt		0.3
