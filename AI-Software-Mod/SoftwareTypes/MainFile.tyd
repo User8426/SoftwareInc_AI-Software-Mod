@@ -74,6 +74,22 @@ SoftwareType
 			CodeArt		1
 			Submarkets	[ 1; 2; 2 ]
 			}
+			{
+					Name		"SUBFEAT1"
+					Description	"DESC"
+					DevTime		3
+					Level		2
+					CodeArt		1
+					Submarkets	[ 0; 1; 3 ]
+					}
+					{
+					Name		"SUBFEAT2"
+					Description	"DESC"
+					DevTime		4
+					Level		2
+					CodeArt		0.8
+					Submarkets	[ 4; 3; 0]
+					}
                         {
 			Name 		"Art/Drawing Ability"
 			Spec		2D
@@ -84,5 +100,21 @@ SoftwareType
 			CodeArt		0.5
 			Submarkets	[ 3; 2; 1 ]
 			}
+			{
+					Name		"SUBFEAT1"
+					Description	"DESC"
+					DevTime		3
+					Level		2
+					CodeArt		1
+					Submarkets	[ 0; 1; 3 ]
+					}
+					{
+					Name		"SUBFEAT2"
+					Description	"DESC"
+					DevTime		4
+					Level		2
+					CodeArt		0.8
+					Submarkets	[ 4; 3; 0]
+					}
 		]
 	}
