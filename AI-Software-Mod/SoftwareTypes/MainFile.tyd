@@ -72,8 +72,9 @@ SoftwareType
 			DevTime		8
 			CodeArt		1
 			Submarkets	[ 1; 2; 2 ]
-			}
-			{
+			Features
+				[
+					{
 					Name		"Less Robotic Voice"
 					Description	"Makes the bot sound more like a person."
 					Spec            Audio
@@ -91,6 +92,7 @@ SoftwareType
 					CodeArt		1
 					Submarkets	[ 4; 3; 0]
 					}
+				]
                         {
 			Name 		"Art/Drawing Ability"
 			Spec		2D
@@ -100,8 +102,9 @@ SoftwareType
 			DevTime		6
 			CodeArt		0.5
 			Submarkets	[ 3; 2; 1 ]
-			}
-			{
+			Features
+				[
+					{
 					Name		"Shadows"
 					Description	"Allows shadows on drawn files."
 					Spec            2D
@@ -119,5 +122,7 @@ SoftwareType
 					CodeArt		0.3
 					Submarkets	[ 3; 7; 0] 
 					}
+				]
+			}
 		]
 	}
