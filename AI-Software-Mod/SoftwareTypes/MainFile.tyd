@@ -162,8 +162,8 @@ SoftwareType
 					Description	"Allows vectors to be made."
 					Spec            2D
 					DevTime		4
-					Level		0.8
-					CodeArt		1
+					Level		2
+					CodeArt		0.8
 					Submarkets	[ 1; 2; 0]
 					}
 					{
