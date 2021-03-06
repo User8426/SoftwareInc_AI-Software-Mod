@@ -13,7 +13,7 @@ CompanyType
 			Category	Assistant
 			Chance		1
 			}
-      {
+                        {
 			Software	"AI Assistant"
 			Category	Discord Bot
 			Chance		1
