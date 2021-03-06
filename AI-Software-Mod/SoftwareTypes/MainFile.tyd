@@ -78,6 +78,14 @@ SoftwareType
 					CodeArt		1
 					Submarkets	[ 0; 1; 0]
                                         }
+					{
+					Name		"Website Virus Checker"
+					Description	"Checks websites before using any info/images from it to see if its safe."
+					DevTime		2
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 3; 4] #Edit Useful Secure
+					}
 				]
 			}
 			{
@@ -109,6 +117,15 @@ SoftwareType
 					CodeArt		1
 					Submarkets	[ 4; 3; 0]
 					}
+					{
+					Name		"Music Player"
+					Description	"Allows Music To Be Played."
+					Spec            Audio
+					DevTime		1
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 3; 0] 
+					}
 				]
                         }
                         {
@@ -139,6 +156,25 @@ SoftwareType
 					Level		2
 					CodeArt		0.3
 					Submarkets	[ 3; 7; 0] 
+					}
+					{
+					Name		"Vector Art"
+					Description	"Allows vectors to be made."
+					Spec            2D
+					DevTime		4
+					Level		0.8
+					CodeArt		1
+					Submarkets	[ 1; 2; 0]
+					}
+					{
+					Name		"3D Art"
+					Description	"Allows more complex art to be made."
+					Spec            3D
+					Dependencies    3D Editor
+					DevTime		6
+					Level		2
+					CodeArt		0.5
+					Submarkets	[ 3; 7; 0]
 					}
 				]
 			}
