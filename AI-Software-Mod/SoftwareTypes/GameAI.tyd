@@ -4,6 +4,7 @@ SoftwareType
 	Name			"AI for games"
 	Category		"Game AI"
 	Description		"Save costs by having computers do stuff instead of humans who will want a copy of the game.."
+	Dependencies		"Game"
 	Random			0.8
 	IdealPrice		40
 	OptimalDevTime		24
