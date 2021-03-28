@@ -1,10 +1,8 @@
-					
 SoftwareType
 	{
 	Name			"AI for games"
 	Category		"Game AI"
 	Description		"Save costs by having computers do stuff instead of humans who will want a copy of the game.."
-	Dependencies		"Game"
 	Random			0.8
 	IdealPrice		40
 	OptimalDevTime		24
@@ -31,6 +29,7 @@ SoftwareType
 			Name 		"Security + General System"
 			Spec		System
 			Description	"These are the main components of an AI."
+			Dependencies	Game
 			DevTime		12
 			CodeArt		1
 			Submarkets	[ 1; 3; 3 ]
@@ -152,7 +151,8 @@ SoftwareType
 					}
 				]
 			}
-      Name 		"3D viewer"
+			{
+   		        Name 		"3D viewer"
 			Spec		3D
 			Dependencies	"3D Editor"
 			Optional	True
@@ -163,7 +163,7 @@ SoftwareType
 			Features
 				[
 					{
-					Name		"Shadows"
+					Name		"3D Shadows"
 					Description	"Allows shadows to be understood better."
 					Spec            3D
 					DevTime		6
@@ -172,7 +172,7 @@ SoftwareType
 					Submarkets	[ 2; 3; 0 ] 
 					}
 					{
-					Name		"Detail checker"
+					Name		"3D Detail checker"
 					Description	"Makes it so the bot looks more deeply into specific parts, realising it might be a player in disguise."
 					Spec            3D
 					DevTime		8
