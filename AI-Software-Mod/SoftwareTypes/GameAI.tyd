@@ -1,0 +1,185 @@
+					
+SoftwareType
+	{
+	Name			"AI for games"
+	Category		"Game AI"
+	Description		"Save costs by having computers do stuff instead of humans who will want a copy of the game.."
+	Random			0.8
+	IdealPrice		40
+	OptimalDevTime		24
+	OneClient		False
+	InHouse			False
+	SubmarketNames		[ Editablity; Usefulness; Secure ]
+	Unlock                  1990
+	Categories
+		[
+			{
+			Name			"Game AI"
+			Description		"A player who doesnt exist."
+			Popularity		0.6
+			Submarkets		[ 0; 1; 0 ]
+			Retention		48
+			TimeScale		1
+			Iterative		0.75
+			NameGenerator		SoftwareNames
+			}
+		]
+	Features
+		[
+			{
+			Name 		"Security + General System"
+			Spec		System
+			Description	"These are the main components of an AI."
+			DevTime		12
+			CodeArt		1
+			Submarkets	[ 1; 3; 3 ]
+			Features
+				[
+					{
+					Name		"Active Virus/Backdoor Protection"
+					Description	"This will help secure your AI from attackers."
+					DevTime		3
+					Level		2
+					CodeArt		1
+					Submarkets	[ 0; 1; 3 ]
+					}
+					{
+					Name		"Custom strategies with UI"
+					Description	"This feature will allow the owner to add new strategies easily."
+					DevTime		5
+					Level		2
+					CodeArt		0.8
+					Submarkets	[ 4; 3; 0]
+					}
+					{					
+					Name		"Database"
+					Description	"Allows data specific to other players strategies to be stored, making it more difficult to beat.."
+					DevTime		2
+					Level		3
+					CodeArt		1
+					Server          0.001
+					Submarkets	[ 1; 3; 0 ]
+					}
+					{
+					Name		"Optimizations"
+					Description	"Optimises code to make it more efficent."
+					DevTime		6
+					Level		2
+					CodeArt		1
+					Submarkets	[ 0; 1; 0]
+					}
+				]
+			}
+			{
+			Name 		"Speaking Feature"
+			Spec		Audio
+			Dependencies	"Audio Tool"
+			Optional	True
+			Description	"This feature allows the AI to speak in VC."
+			DevTime		8
+			CodeArt		1
+			Submarkets	[ 1; 2; 2 ]
+			Features
+				[
+					{
+					Name		"Less Robotic Voice"
+					Description	"Makes the bot sound more like a person, so noone suspects a thing."
+					Spec            Audio
+					DevTime		5
+					Level		2
+					CodeArt		1
+					Submarkets	[ 1; 4; 0 ] 
+					}
+					{
+					Name		"Male/Female Voice varients"
+					Description	"Adds option for higher and lower pitch."
+					Spec            Audio
+					DevTime		2
+					Level		1
+					CodeArt		1
+					Submarkets	[ 4; 3; 0]
+					}
+					{
+					Name		"Music Player"
+					Description	"Allows Music To Be Played to annoy the opponents."
+					Spec            Audio
+					DevTime		1
+					Level		1
+					CodeArt		1
+					Submarkets	[ 1; 3; 0] 
+					}
+				]
+                        }
+                        {
+			Name 		"Sprite detection"
+			Spec		2D
+			Dependencies	"2D Editor"
+			Optional	True
+			Description	"This feature allows the bot to understand 2D imagery better"
+			DevTime		6
+			CodeArt		0.5
+			Submarkets	[ 3; 2; 1 ]
+			Features
+				[
+					{
+					Name		"Shadows"
+					Description	"Allows shadows to be understood better."
+					Spec            2D
+					DevTime		6
+					Level		3
+					CodeArt		0.5
+					Submarkets	[ 2; 3; 0 ] 
+					}
+					{
+					Name		"Detail checker"
+					Description	"Makes it so the bot looks more deeply into specific parts, realising it might be a player in disguise."
+					Spec            2D
+					DevTime		8
+					Level		2
+					CodeArt		0.3
+					Submarkets	[ 3; 7; 0] 
+					}
+					{
+					Name		"3D Art"
+					Description	"Allows more complex art to be made."
+					Spec            3D
+					Dependencies    3D Editor
+					DevTime		6
+					Level		2
+					CodeArt		0.5
+					Submarkets	[ 3; 7; 0]
+					}
+				]
+			}
+      Name 		"3D viewer"
+			Spec		3D
+			Dependencies	"3D Editor"
+			Optional	True
+			Description	"This feature allows the bot to understand 3D imagery better"
+			DevTime		8
+			CodeArt		0.5
+			Submarkets	[ 3; 2; 1 ]
+			Features
+				[
+					{
+					Name		"Shadows"
+					Description	"Allows shadows to be understood better."
+					Spec            3D
+					DevTime		6
+					Level		3
+					CodeArt		0.5
+					Submarkets	[ 2; 3; 0 ] 
+					}
+					{
+					Name		"Detail checker"
+					Description	"Makes it so the bot looks more deeply into specific parts, realising it might be a player in disguise."
+					Spec            3D
+					DevTime		8
+					Level		2
+					CodeArt		0.3
+					Submarkets	[ 3; 7; 0] 
+					}
+				]
+			}
+		]
+	}
